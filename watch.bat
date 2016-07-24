@@ -1,2 +1,2 @@
 
-watchify test.js -o bundle.js -t [ babelify --sourceMapsAbsolute --presets [ es2015 ] ]
+watchify --debug test.js -o bundle.js -t [ babelify --sourceMapsAbsolute --presets [ es2015 ] ]
